@@ -1,0 +1,160 @@
+/* BARRA DE NAVEGACION**/
+
+.navbar {
+    padding: 2rem;
+    background-color: aliceblue;
+}
+
+/* Estilos generales**/
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-family: 'Rubik Dirt', cursive;
+    font-size: 2.5rem
+}
+
+.seccion-oscura {
+    background-color: black;
+    color: white;
+}
+
+.seccion-clara {
+    color: black;
+    background-color: white;
+}
+
+
+.seccion-titulo {
+    font-size: 2rem;
+    padding: 15px 0;
+    font-family: Rubik Dirt, cursive;
+    color: aliceblue;
+
+}
+
+.seccion-texto {
+    font-size: 1rem;
+    padding: 15px;
+    color: aliceblue;
+}
+
+/* seccion Hero**/
+
+.hero-principal h2 {
+    font-size: 1.5rem;
+    color: gray;
+}
+
+.hero-principal {
+    padding: 3rem;
+
+}
+
+.hero-imagen-desarrollador {
+    width: 250px;
+    height: 200px;
+    margin: 20px;
+    border-radius: 10%;
+}
+.hero-inferior-imagen {
+width: 500px;
+
+}
+.hero {
+    background-color: aliceblue;
+    min-height: 450px;
+    text-align: center;
+}
+
+.navbar-collapse {
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Sobre mi **/
+
+.sobre-mi {
+    height: 500px;
+    padding: 10px;
+    margin: 15px;
+}
+
+.sobre-mi .contenedor {
+    max-width: 600px;
+    text-align: center;
+}
+
+/*Experiencia**/
+
+.experiencia {
+    padding: 40px;
+}
+
+.experiencia .row div {
+    height: 250px;
+
+
+}
+
+.experiencia-titulo {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.badges-contenedor {
+    font-size: 15px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.badge {
+    margin: 3px;
+}
+
+.experiencia i {
+    font-size: 2.5rem;
+    color: forestgreen;
+    background-color: black;
+    padding: 10px 20px;
+    border-radius: 20%;
+
+}
+.experiencia .columna {
+       
+    padding: 20px;
+    border: 2px solid rgb(58, 58, 58);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    transition: all 0.2s ease-in;
+}
+.experiencia .columna:hover {
+    color: white;
+    background-color: black;
+}
+
+/* @media querys adaptable (responsivo) **/
+
+@media screen and (max-width: 767px) {
+    .navbar-brand {
+        display: none;
+    }
+
+}
+
+@media screen and (min-width:700px) {
+    .hero-inferior-imagen {
+        max-width: 600px;
+    }
+
+}
+
+/**Images**/
