@@ -3,6 +3,7 @@
 .navbar {
     padding: 2rem;
     background-color: aliceblue;
+    font-weight: bold;
 }
 
 /* Estilos generales**/
@@ -34,7 +35,7 @@ h1 {
     font-size: 2rem;
     padding: 15px 0;
     font-family: Rubik Dirt, cursive;
-    color: aliceblue;
+    color: white;
 
 }
 
@@ -42,6 +43,12 @@ h1 {
     font-size: 1rem;
     padding: 15px;
     color: aliceblue;
+}
+.texto-negro {
+    color: black;
+}
+.texto-blanco {
+    color: white;
 }
 
 /* seccion Hero**/
@@ -60,14 +67,14 @@ h1 {
     width: 250px;
     height: 200px;
     margin: 20px;
-    border-radius: 10%;
+    border-radius: 0%;
 }
 .hero-inferior-imagen {
 width: 500px;
 
 }
 .hero {
-    background-color: aliceblue;
+    background-color: white;
     min-height: 450px;
     text-align: center;
 }
@@ -82,11 +89,12 @@ width: 500px;
 .sobre-mi {
     height: 500px;
     padding: 10px;
-    margin: 15px;
+   
 }
 
 .sobre-mi .contenedor {
-    max-width: 600px;
+    display: block;
+    max-width: 480px;
     text-align: center;
 }
 
@@ -129,16 +137,20 @@ width: 500px;
 .experiencia .columna {
        
     padding: 20px;
-    border: 2px solid rgb(58, 58, 58);
-    display: flex;
-    flex-direction: column;
+    border: 1px solid rgb(58, 58, 58);
+    max-width: 500px;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
     transition: all 0.2s ease-in;
 }
 .experiencia .columna:hover {
     color: white;
     background-color: black;
+}
+
+/*proyectos**/
+.proyectos-recientes {
+    padding: 40px;
 }
 
 /* @media querys adaptable (responsivo) **/
