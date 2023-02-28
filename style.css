@@ -194,10 +194,7 @@ h1 {
     margin-top: 10px;
 }
 
-.overlay .iconos-contenedor {
-   
-
-}
+.overlay .iconos-contenedor {}
 
 .overlay i {
     color: black;
@@ -214,6 +211,27 @@ h1 {
 .proyecto:hover .overlay {
     opacity: 1;
 
+}
+
+/* Imagenes carrusel*/
+
+.imagenes-carrusel-boot {
+    padding: 40px 40px 80px 40px;
+
+}
+
+.imagenes-carrusel-boot .carousel {
+    max-width: 800px;
+
+}
+
+.carousel-item {
+    max-height: 500px;
+    
+}
+.carousel-item img {
+    width: 800px;
+    height: 500px;
 }
 
 /* @media querys adaptable (responsivo) **/
@@ -243,4 +261,3 @@ h1 {
     }
 
 }
-
