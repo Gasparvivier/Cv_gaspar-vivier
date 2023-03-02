@@ -1,7 +1,11 @@
 <!doctype html>
-<html lang="es" data-bs-theme="">
+<html lang="es" prefix="og: https://ogp.me/ns#" data-bs-theme="">
+
   <head>
+
+
     <!--meta-Datos-->
+
     <meta charset="utf-8">
     <meta name="author" content="Gaspar Vivier">
     <meta name="description" content="HTML, CSS, JavaScript">
@@ -48,7 +52,8 @@
               alt="icono html"></a>
           <ul class="navbar-nav d-flex justify-content-center">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#datos-personales">Datos Personales</a>
+              <a class="nav-link active" aria-current="page"
+                href="#datos-personales">Datos Personales</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#proyectos">Proyectos</a>
@@ -63,23 +68,22 @@
     </nav>
 
     <!--Seccion HERO-->
-    <section class="hero align-items-strech">
+    <section class="hero">
       <div class=" hero-principal">
         <img class="hero-imagen-desarrollador"
           src="https://live.staticflickr.com/65535/52714876682_9ea478521b_m.jpg"
           alt="Foto de Gaspar">
-        <h1>Hola, soy Gaspar Vivier</h1>
+        <h1>Hola, soy Gaspar</h1>
         <h2>Junior Developer</h2>
       </div>
-      <div class="hero-inferior">
-        <img class="hero-inferior-imagen img-fluid"
-          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFOjw6d2oUbe1n-8HIPb8V4b1YnFqYHJ0CvA&usqp=CAU"
-          alt="imagen">
+      
+    </section>
+    <section>
 
-      </div>
       <!--Datos personales-->
-      <div id="datos-personales" class="datos-personales seccion-oscura">
-        <section class="contenedor">
+      <div id="datos-personales" class="container datos-personales
+        seccion-oscura">
+        <section class="container contenedor-datos-personales">
           <h2 class="seccion-titulo texto-blanco">Datos personales
           </h2>
           <p class="seccion-texto ">Nombre y apellido: Vivier Gaspar Eduardo</p>
@@ -88,27 +92,31 @@
 
 
         </div>
+        <div class="container hero-inferior seccion-oscura">
+          <img class="hero-inferior-imagen img-fluid"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFOjw6d2oUbe1n-8HIPb8V4b1YnFqYHJ0CvA&usqp=CAU"
+            alt="imagen">
+        </div>
+
 
       </section>
 
-    </section>
+      <!-- Experiencia-->
 
-    <!-- Experiencia-->
-
-    <section class="experiencia seccion-clara">
-      <div class="container text-center">
-        <!-- desarrollo web -->
-        <div class="row">
-          <div class="columna col-12 col-md-4">
-            <i class="bi bi-laptop"></i>
-            <p class="experiencia-titulo">Primeros pasos en Front-end</p>
+      <section class="experiencia seccion-clara">
+        <div class="container text-center">
+          <!-- desarrollo web -->
+          <div class="row">
+            <div class="columna col-12 col-md-4">
+              <i class="bi bi-laptop"></i>
+              <p class="experiencia-titulo">Primeros pasos en Front-end</p>
               <p>Cursando en Argentina Programa 4.0</p>
               <div class="badges-contenedor">
-                <span class="badge text-bg-primary">HTML</span>
-                <span class="badge text-bg-primary">CSS</span>
-                <span class="badge text-bg-primary">Bootstrap</span>
-                <span class="badge text-bg-primary">JavaScript</span>
-                <span class="badge text-bg-primary">MediaQueries</span>
+                <span class="badge text-bg-primary badges-contenedor">HTML</span>
+                <span class="badge text-bg-primary badges-contenedor">CSS</span>
+                <span class="badge text-bg-primary badges-contenedor">Bootstrap</span>
+                <span class="badge text-bg-primary badges-contenedor">JavaScript</span>
+                <span class="badge text-bg-primary badges-contenedor">MediaQueries</span>
               </div>
 
             </div>
