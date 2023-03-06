@@ -43,6 +43,7 @@ h1 {
     font-size: 1rem;
     padding: 5px;
     color: aliceblue;
+    font-weight: bold;
 }
 
 .texto-negro {
@@ -231,6 +232,7 @@ h1 {
     width: 800px;
     height: 500px;
 }
+
 
 /* Contacto*/
 
