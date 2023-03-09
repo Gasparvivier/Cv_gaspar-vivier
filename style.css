@@ -114,9 +114,11 @@ h1 {
 .experiencia-titulo {
     font-size: 25px;
     font-weight: bold;
-    margin: 10px 0;
+    margin: 5px 0;
 }
-
+.experiencia-descripcion {
+    font-weight: bold;
+}
 .badges-contenedor {
     font-size: 15px;
     font-weight: bold;
